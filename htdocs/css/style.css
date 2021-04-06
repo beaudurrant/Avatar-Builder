@@ -1,0 +1,63 @@
+/** Main Layout */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+
+#avatarContainer {
+  background: #DDD;
+  width: 250px;
+  padding: 10px;
+  float: left;
+}
+
+#optionsContainer {
+  width: 650px;
+  float: right;
+}
+
+#avatar {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  cursor: hand;
+  cursor: pointer;
+}
+
+#avatarForm div {
+  float: left;
+}
+
+.formLabel {
+  font-weight: strong;
+  width: 130px;
+  font-size: 1.1em;
+}
+
+.formOptions {
+  font-size: .75em;
+  color: #666;
+}
+
+/** Color Picker */
+#colorPicker {
+  width: 146px;
+  height: 134px;
+  background-color: #fff;
+  border: 5px solid #000;
+  margin: 0;
+  padding: 0;
+}
+
+#colorPicker div {
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin: 1px;
+  cursor: hand;
+  cursor: pointer;
+}
